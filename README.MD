@@ -1,3 +1,3 @@
-skan_planning_2021
+skan_planner_2021
 
-JavaScript study
+JavaScript / HTML / CSS
