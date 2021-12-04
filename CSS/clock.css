@@ -1,0 +1,24 @@
+.time{
+    box-sizing: border-box;
+    margin:20px;
+    border-radius: 25% 25% 10% 10%;
+    background-color:rgba(216,191,216,0.4);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    display:flex;
+    padding-left: 50px;
+    flex-direction: column;
+    width:270px;
+    height:270px;
+    color:rgba(0, 0, 0, 0.7);
+}
+.time #year{
+    margin-bottom: 0;
+    font-size: 40px;
+}
+.time #date{
+    font-size: 45px;
+    margin: 0;
+}
+.time #clock{
+    font-size: 45px;
+}

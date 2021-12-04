@@ -1,0 +1,83 @@
+#plan__form{
+    /* border:1px solid black; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+#greeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    position: relative;
+    top:-120px;
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+}
+#plan{
+    display: flex;
+    flex-direction: column;
+}
+#plan label{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+#plan input{
+    background: none;
+    border:none;
+    width: 300px;
+    height:40px;
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+#plan input::placeholder{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+#plan input:focus{
+    outline:none;
+}
+#list__form{
+    /* border:1px solid black; */
+    margin-top:20px;
+    width: 400px;
+    height: 340px;
+    font-size: 24px;
+    overflow-y:auto;
+}
+#plan_list{
+    padding-right:30px;
+}
+#plan_list li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+} 
+#plan_list button{
+    background: none;
+    border:none;
+}
+#plan_list button i{
+    opacity: 0.6;
+}
+#plan_list button i:hover{
+    color:tomato;
+}
+#list__form::-webkit-scrollbar{
+    width:10px;
+}
+#list__form::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-clip: padding-box;
+    border:2px solid transparent;
+}
+#list__form::-webkit-scrollbar-track{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}

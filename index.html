@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Skan_Planner</title>
+</head>
+<body>
+    <div class="time">
+        <h1 id="year">1998</h1>
+        <h1 id="date">Feb 12</h1>
+        <h2 id="clock">00:00:00</h2>
+    </div>
+    
+    <div class="weather">
+        <div class="weather__main">
+            <img id="weather__icon" src="http://openweathermap.org/img/wn/01d@2x.png"></img>
+            <div class="weather__info">
+                <span id="temp">0°</span>
+                <span id="weather">Clear sky</span>
+            </div>
+        </div>
+        <span id="place">Location : Seoul</span>
+    </div>
+
+    <main id="main__form">  
+        <form id="login__form" class="hidden"> 
+            <label for="user-name__form">What is your Name?</label>
+            <div class="user-name__input">
+                <input id="user-name__form" type="text" placeholder="skan" maxlength="15" autocomplete="off" required/>
+                <button><i class="fas fa-check fa-2x"></i></button>
+            </div>
+        </form>
+        
+        <h1 id="greeting" class="hidden"></h1>
+        
+        <div id="plan__form">        
+            <form id="plan" class="hidden">
+                <label for="plan__name">What is your plan?</label>
+                <input id="plan__name" type="text" placeholder="work" autocomplete="off" required/>
+            </form>
+            
+            <div id="list__form">
+                <ul id="plan_list"></ul>
+            </div>
+        </div>
+    </main>
+
+    <div id="quote">
+        <span class="quote"></span>
+        <span class="author"></span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/fbe0e3198d.js" crossorigin="anonymous"></script>
+    <script src="JS/greeting.js"></script>
+    <script src="JS/clock.js"></script>
+    <script src="JS/quote.js"></script>
+    <script src="JS/background.js"></script>
+    <script src="JS/main.js "></script>
+    <script src="JS/weather.js "></script>
+</body>
+</html>

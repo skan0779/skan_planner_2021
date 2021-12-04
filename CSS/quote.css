@@ -1,0 +1,18 @@
+#quote{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:0px;
+}
+.quote{
+    font-size: 20px;
+}
+.author{
+    font-size: 15px;
+}
+#quote:hover{
+    animation: hovered 1.5s ease-in-out;
+}
