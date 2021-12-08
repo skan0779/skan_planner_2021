@@ -67,6 +67,9 @@
 #plan_list button i:hover{
     color:tomato;
 }
+#plan_list button i:active{
+    transform:scale(0.8);
+}
 #list__form::-webkit-scrollbar{
     width:10px;
 }
